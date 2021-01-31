@@ -80,7 +80,9 @@ import uniquee.handler.potion.PotionPestilencesOdium;
 public class UniqueEnchantments
 {
 	static List<IToggleEnchantment> ENCHANTMENTS = new ObjectArrayList<IToggleEnchantment>();
-	//Simple
+	//6 / 5000
+	//翻译结果
+	//简单
 	public static Enchantment BERSERKER = new EnchantmentBerserk();
 	public static Enchantment ADV_SHARPNESS = new EnchantmentAdvancedDamage(0);
 	public static Enchantment ADV_SMITE = new EnchantmentAdvancedDamage(1);
@@ -94,7 +96,7 @@ public class UniqueEnchantments
 	public static Enchantment RANGE = new EnchantmentRange();
 	public static Enchantment TREASURERS_EYES = new EnchantmentTreasurersEyes();
 	
-	//Complex
+	//复杂
 	public static Enchantment SWIFT_BLADE = new EnchantmentSwiftBlade();
 	public static Enchantment SPARTAN_WEAPON = new EnchantmentSpartanWeapon();
 	public static Enchantment PERPETUAL_STRIKE = new EnchantmentPerpetualStrike();
@@ -103,7 +105,7 @@ public class UniqueEnchantments
 	public static Enchantment ENDER_MENDING = new EnchantmentEnderMending();
 	public static Enchantment SMART_ASS = new EnchantmentSmartAss();
 	
-	//Unique
+	//独特
 	public static Enchantment WARRIORS_GRACE = new EnchantmentWarriorsGrace();
 	public static Enchantment ENDERMARKSMEN = new EnchantmentEnderMarksmen();
 	public static Enchantment ARES_BLESSING = new EnchantmentAresBlessing();
@@ -119,11 +121,11 @@ public class UniqueEnchantments
 	public static Enchantment ENDER_LIBRARIAN = new EnchantmentEnderLibrarian();
 	public static Enchantment DEMETERS_SOUL = new EnchantmentDemetersSoul();
 	
-	//Curses
+	//诅咒
 	public static Enchantment PESTILENCES_ODIUM = new EnchantmentPestilencesOdium();
 	public static Enchantment DEATHS_ODIUM = new EnchantmentDeathsOdium();
 	
-	//Potions
+	//药水
 	public static Potion PESTILENCES_ODIUM_POTION = new PotionPestilencesOdium();
 	
 	public static Configuration CONFIG;
